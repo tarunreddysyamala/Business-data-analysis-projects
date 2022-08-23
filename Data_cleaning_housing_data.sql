@@ -84,7 +84,8 @@ delete from rownumcte
  -- Delete unused columns
  
  select * from data_cleaning;
+  alter table  data_cleaning drop column  owneraddress;
  
- alter table  data_cleaning drop column  owneraddress;
+
  
 
